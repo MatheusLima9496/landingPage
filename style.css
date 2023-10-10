@@ -1,0 +1,183 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+.cab{
+    background-color: rgba(243, 240, 240, 0.74);
+
+}
+.inicio{
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    
+}
+.inicio > p{
+    margin-left: 20px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(109, 105, 105);
+    font-weight: 500;
+    
+}
+.img2{
+    width: 250px;
+}
+.front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.guia > h2{
+    color: rgb(52, 142, 245);
+    font-family: 'Kanit', sans-serif;
+}
+.guia{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.guia > h1{
+    width: 330px;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+}
+.guia > p {
+    font-size: 20px;
+    color: rgb(109, 105, 105);
+}
+.guia > button{
+    width: 180px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    border-radius: 15px;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+}
+.conteudo{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+   
+}
+.artigo{
+    display: flex;
+    flex-direction: column;
+    
+}
+.artigo > h1 {
+    font-size: 25px;
+    font-weight: 600;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 10ox;
+}
+aside > p {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Kanit', sans-serif;
+}
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(52, 142, 245);
+}
+.itens{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(109, 105, 105);
+
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-left: 250px;
+}
+.sites{
+    display: flex;
+     padding-top: 50px;
+     gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.share{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(109, 105, 105);
+
+}
+.footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 50px;
+    background-color: rgb(52, 142, 245);
+}
+.footer > p{
+    
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    width: 500px;
+    text-align: center;
+    
+}
+.imgl{
+    height: 35px;
+    width: 100px;
+    
+}
+
+bory {
+    padding: 1rem;
+}
+h1 {
+    text-align: center;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    width: 800px;
+    margin: auto;  
+    padding-bottom: 40px; 
+}
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+input, select, textarea {
+
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1,1rem;
+}
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
